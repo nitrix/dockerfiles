@@ -1,5 +1,8 @@
 #!/bin/bash
 
+apt-get update
+apt-get install -y libsm6 libxrender1 libfontconfig1 libgtk2.0-dev
+
 # This is mounted.
 cd /mnt/sd
 
