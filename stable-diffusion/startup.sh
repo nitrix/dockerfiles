@@ -21,4 +21,4 @@ fi
 
 echo "Running stable diffusion"
 cd /mnt/sd/stable-diffusion-ui
-/mnt/sd/stable-diffusion-ui/start.sh > /dev/null 2>&1
+bash -c '/mnt/sd/stable-diffusion-ui/start.sh | grep -v "prompt:"'
